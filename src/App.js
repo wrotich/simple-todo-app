@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import Note from './components/note'
 import './App.css';
 
-class App extends Component {
+class todo extends Component {
   constructor(props) {
     super(props);
     this.state = {
@@ -56,4 +56,4 @@ class App extends Component {
   }
 }
 
-export default App;
+export default todo;
